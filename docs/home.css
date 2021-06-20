@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body {
+    background-image: url("/Untitled\ design.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+}
+
+.main h1 {
+    padding-top: 15%;
+    font-size: 45px;
+    font-weight: 45px;
+    letter-spacing: 2px;
+    font-family: 'Staatliches', sans-serif;
+    color: white;
+}
+
+.main a {
+    padding-top: 5%;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Staatliches', sans-serif;
+    background: rgba(0, 0, 0, 0.10);
+    border-radius: 5%;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border: 2px solid #008080;
+}
+
+.main a:hover {
+    background-color: rgb(5, 44, 41);
+}
